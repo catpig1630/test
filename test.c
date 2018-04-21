@@ -5,7 +5,12 @@
 
 
 int main(){
-    printf("Hello World");
+    int i;
+    for (i=0; i<5; i++) {
+        printf("i=%d\n",i);
+    }
+    
+    printf("Hello World\n");
     return 0;
 
 
